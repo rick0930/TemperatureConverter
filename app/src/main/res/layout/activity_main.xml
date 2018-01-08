@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="@string/app_name"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="250dp">
+        <TextView
+            android:text="@string/edit_C"
+            android:id="@+id/textC"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_width="85dp" />
+        <EditText
+            android:text=""
+            android:id="@+id/editC"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal|numberSigned" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:text="@string/edit_F"
+            android:layout_height="wrap_content"
+            android:id="@+id/textF"
+            android:layout_width="85dp"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:id="@+id/editF"
+            android:text=""
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal|numberSigned" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
+        <Button
+            android:layout_height="wrap_content"
+            android:text="@string/btn_calcu"
+            android:id="@+id/btnCalc"
+            android:layout_width="125dp"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/btn_clear"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLayout5"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/tvAbout"
+            android:text="@string/text_about"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:visibility="invisible"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+</LinearLayout>

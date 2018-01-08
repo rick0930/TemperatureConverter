@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">溫度轉換器</string>
+    <string name="edit_C">攝氏(℃)=</string>
+    <string name="edit_F">華氏(°F)=</string>
+    <string name="btn_calcu">計算</string>
+    <string name="btn_clear">清除</string>
+    <string name="text_about">溫度小常識...>>更多</string>
+    <string name="forget"> 您忘了輸入數字喔!!</string>
+    <string name="exception"> 發生例外!!</string>
+    <string name="error"> 輸入錯誤!!</string>
+    <string name="out_of_range">溫度超出範圍!!</string>
+    <string name="not_applicable">N/A</string>
+    <string name="text_demo">
+身體裡面最熱的部位是肝臟,溫度在38度上下。
+華氏的由來:為了紀念創始人Fahrenheit。
+華氏溫標的由來:冰,水,鹽的混合物溫度為華氏0度,人的體溫為100度,推得冰的熔點是32度,水的沸點是212度。
+攝氏的由來:為了紀念創始人Celsius。
+攝氏溫標由來:冰的熔點是0度,水的沸點是100度。
+攝氏-273度,也就是凱氏溫度0度,是能夠達到的最低溫度,所以又叫絕對0度。
+    </string>
+</resources>
